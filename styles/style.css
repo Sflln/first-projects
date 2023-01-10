@@ -145,21 +145,21 @@ border for checking*/
 
 .digits{
   margin-bottom: 100px;
+  margin-top: 100px;
 }
 
-.digits__section-title{
+.section-title{
   font-size: 60px;
   line-height: 1.15;
   font-weight: 600;
   text-align: center;
   width: 60%;
-  margin-top: 100px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.digits__section-subtitle{
+.section-subtitle{
   font-size: 24px;
   line-height: 34px;
   text-align: center;
@@ -168,7 +168,7 @@ border for checking*/
   margin: auto;
 }
 
-.digits__table{
+.table{
   width: 1100px;
   display: flex;
   margin: auto;
@@ -177,13 +177,13 @@ border for checking*/
   justify-content: space-between;
 }
 
-.digits__table_cell{
+.table_cell{
   width: 250px;
   flex-direction: column;
   margin-top: 60px;
 }
 
-.digits__table_heading{
+.table_heading{
   font-size: 24px;
   line-height: 1.15;
   font-weight: 600;
@@ -191,11 +191,15 @@ border for checking*/
   margin-bottom: 20px;
 }
 
-.digits__table_text{
+.table_text{
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
   margin-bottom: 20px;
+}
+
+.table_text:last-of-type {
+  margin-bottom: 0;
 }
 
 /*Блок Feynman*/
@@ -204,6 +208,7 @@ border for checking*/
   background-color: #f2f2f2;
   height: 890px;
   position: relative;
+  margin-bottom: 0;
 }
 
 .feynman__img{
@@ -254,10 +259,43 @@ border for checking*/
   top: 445px;
 }
 
-/* и элемента с модификатором вида ключ-значение
-.table__cell_theme_dark {
+
+/*Блок Kaufman*/
+
+.kaufman{
+  background-color: #1f1f1f;
+  padding-bottom: 90px;
+  overflow: hidden;
+  position: relative;
+}
+
+.section-title_theme_dark{
+  color: white;
+  margin-top: 0;
+  padding-top: 90px;
+  z-index: 1;
+}
+
+.section-subtitle_theme_dark{
+  color: white;
+  z-index: 1;
+}
+
+.table_cell_theme_dark{
   width: 200px;
+  margin-top: 80px;
   color: white;
   margin-right: 0;
-  margin-top: 80px;
-}*/
+  z-index: 1;
+}
+
+.kaufman__triangle{
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  background-image: url(../images/kaufman-triangle.svg);
+  right: -210px;
+  padding: 0;
+  margin: 0;
+}
+
