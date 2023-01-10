@@ -137,12 +137,11 @@
 }
 
 
-/*border for checking*/
-
 /*Блок с таблицей №1*/
-.brd{
+/*.brd{
   border: 1px solid red;
 }
+border for checking*/
 
 .digits{
   margin-bottom: 100px;
@@ -183,11 +182,6 @@
   flex-direction: column;
   margin-top: 60px;
 }
-
-/*.strochka{
-  margin-top: 60px;
-  justify-content: space-between;
-}*/
 
 .digits__table_heading{
   font-size: 24px;
